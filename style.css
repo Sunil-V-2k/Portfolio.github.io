@@ -561,11 +561,16 @@ nav.fas{
 }
 
 .certificate-list {
-    display: flex;
+/*     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     margin-top: 50px;
-    justify-content: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+    padding: 0 10px;
 }
 
 .certificate {
