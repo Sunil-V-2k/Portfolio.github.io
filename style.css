@@ -178,7 +178,7 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
   }
 }
-/*service
+/*service */
 #services{
     padding: 30px 0;
 
@@ -224,7 +224,7 @@ div{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
-    /* padding: 20px; 
+    /* padding: 20px; */
     padding: 30px 10px 0 10px;
     margin-top: 50px;
 
@@ -238,7 +238,7 @@ div{
     display: flex;
     flex-direction: column;
     height: auto;   
-    /* flex: 1 1 280px; 
+    /* flex: 1 1 280px; */
     max-width: auto;
     height: 36rem;
 }
@@ -318,7 +318,7 @@ div{
     padding: 14px 60px;
     cursor: pointer;
     background: transparent;
-    /* color: #ff004f; 
+    /* color: #ff004f; */
 }
 .btn:hover{
     background: #ff004f;
@@ -326,7 +326,7 @@ div{
     transform: scale(1.05);
 }
 
-/*---------contact------
+/*---------contact------*/
 .contact-left{
     flex-basis:35%;
 }
@@ -432,18 +432,17 @@ form .btn2:hover {
     background: #262626;
     font-weight: 300;
     margin-top: 20px;
-
 }
 .copyright i{
     color:#ff004f;
 }
-/*--------css for small screen
+/*--------css for small screen-----------*/
 nav.fas{
     display: none;
 }
 @media only screen and (max-width:600px) {
     #header{
-        /* background-image: url(images/phone-background.png); 
+        /* background-image: url(images/phone-background.png); */
     }
     .header-text {
         margin-top: 40px;
@@ -476,7 +475,6 @@ nav.fas{
         top:25px;
         right:25px;
         cursor: pointer;
-
     }
     .sub-title{
         font-size: 40px;
@@ -553,7 +551,7 @@ nav.fas{
         margin: 20px 0;
     }
 }
-/* Certificates 
+/* Certificates */
 #certificates {
     padding: 50px 0;
 }
