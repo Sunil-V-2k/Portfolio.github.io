@@ -185,10 +185,8 @@ nav ul li a:hover::after{
 }
 .services-list{
    display:grid;
-/*    grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); */
-    grid-template-columns: repeat(4, 1fr);
-/*    grid-gap:40px; */
-    gap: 30px;
+   grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+   grid-gap:40px;
    margin-top: 50px; 
    padding: 30px 10px 0 10px;
 }
@@ -561,16 +559,11 @@ nav.fas{
 }
 
 .certificate-list {
-/*     display: flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 40px;
     margin-top: 50px;
-    justify-content: center; */
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    margin-top: 50px;
-    padding: 0 10px;
+    justify-content: center;
 }
 
 .certificate {
